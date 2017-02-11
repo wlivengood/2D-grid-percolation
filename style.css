@@ -1,0 +1,33 @@
+body {
+  padding: 10px;
+}
+
+h1, h2 {
+  text-align: center;
+}
+#grid{
+  margin: 0 auto;
+}
+
+#grid td{
+  border: 1px solid #ddd;
+  width: 18px;
+  height: 18px;
+}
+
+td.open {
+  background-color: #ffffff;
+}
+
+td.closed {
+  background-color: #000000;
+}
+
+td.full {
+  background-color: #0000ff;
+}
+
+#control_panel {
+  margin: 10px auto;
+  text-align: center;
+}
